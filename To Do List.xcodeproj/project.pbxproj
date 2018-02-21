@@ -12,6 +12,7 @@
 		9889711A2039EC8200CBEC43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 988971182039EC8200CBEC43 /* Main.storyboard */; };
 		9889711C2039EC8200CBEC43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9889711B2039EC8200CBEC43 /* Assets.xcassets */; };
 		9889711F2039EC8200CBEC43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9889711D2039EC8200CBEC43 /* LaunchScreen.storyboard */; };
+		988971272039F42F00CBEC43 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988971262039F42F00CBEC43 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		9889711B2039EC8200CBEC43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9889711E2039EC8200CBEC43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		988971202039EC8200CBEC43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		988971262039F42F00CBEC43 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				988971142039EC8200CBEC43 /* AppDelegate.swift */,
 				988971162039EC8200CBEC43 /* ViewController.swift */,
+				988971262039F42F00CBEC43 /* DetailViewController.swift */,
 				988971182039EC8200CBEC43 /* Main.storyboard */,
 				9889711B2039EC8200CBEC43 /* Assets.xcassets */,
 				9889711D2039EC8200CBEC43 /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				988971272039F42F00CBEC43 /* DetailViewController.swift in Sources */,
 				988971172039EC8200CBEC43 /* ViewController.swift in Sources */,
 				988971152039EC8200CBEC43 /* AppDelegate.swift in Sources */,
 			);
